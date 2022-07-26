@@ -88,6 +88,6 @@ def main():
 
 if __name__ == "__main__":
     sys("cls")
-    student_details = open("student_details.txt", "r")
+    student_details = open("student_details-1.txt", "r")
     all_details = eval(" ".join([x for x in student_details])[10:])
     main()
