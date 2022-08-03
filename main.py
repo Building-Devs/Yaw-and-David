@@ -11,7 +11,7 @@ Please Select one option. Enter the numbers attached to them....
 """
 #----------------------------------------------------------------------------------------------
 def update(act):
-    file = open("student_details.txt", "w")
+    file = open("student_details-1.txt", "w")
     file.write(f"students = {act}")
     file.close()
 
